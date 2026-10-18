@@ -1,0 +1,9 @@
+## Interface: 30300
+## Title: BotJobs
+## Notes: Trabajos de profesion para companeros (Playerbots)
+## Author: BotJobs
+## Version: 0.4.0
+## OptionalDeps: AIO
+## SavedVariablesPerCharacter: BotJobsDiary
+
+BotJobs.lua
