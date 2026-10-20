@@ -12,6 +12,7 @@
 -- ============================================================
 
 local AIO = AIO or require("AIO")
+math.randomseed(os.time() + 900200)   -- botin y azar distintos tras cada reinicio
 local BJ  = AIO.AddHandlers("BotJobs", {})
 
 -- ============================================================

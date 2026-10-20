@@ -35,6 +35,8 @@ local GREETINGS = {
     "¡Ah, %s! Justo hablaba de ti.",
 }
 
+math.randomseed(os.time() + NPC_ENTRY)   -- que las frases no sigan siempre el mismo orden tras reiniciar
+
 local lastLine  = {}   -- [creatureGuidLow] = ultimo indice dicho
 local lastGreet = {}   -- [creatureGuidLow] = os.time() del ultimo saludo
 
